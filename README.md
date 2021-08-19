@@ -1,7 +1,7 @@
 # Sylwia and Cypress
 
 # install software
-* Google Chrome
+* [Google Chrome](./doc/google-chrome.md)
 * git-bash
 * Node.js
 * Visual Studio Code
