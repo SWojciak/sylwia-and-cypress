@@ -6,8 +6,6 @@ it ('visits santander.pl webiste' , () => {
     cy.get('.has_second_level_component').should('contain','Oferta')
     cy.get('.header__navigation-element > :nth-child(1) > :nth-child(2) > .acn-ga-link > span').should('contain','Promocje')
     cy.get('.top_visual_with_description__apla-badge').should('contain','Promocje')
-
-
-
+    cy.get('.header__segments > .list > .item_4 > .acn-ga-link > span').should('contain','Małe firmy')
 
 });
