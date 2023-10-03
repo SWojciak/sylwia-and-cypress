@@ -10,4 +10,9 @@ it('visits prezydenthotel.pl website' , () => {
     cy.wait(5000)
     cy.get('.booster-app__close').click()
 
+
+    
+    cy.get('.phone').should('contain','601 454 969')      
+    cy.get('.gift__link > .icon')
+
 });
